@@ -14,8 +14,7 @@ class Persons extends PureComponent{
     // shouldComponentUpdate(nextProps, nextState){
     //     console.log('[Persons.js] shouldComponentUpdate')
     //     if(nextProps.persons !== this.props.persons || nextProps.changed !== this.props.changed || nextProps.clicked !== this.props.clicked) return true
-    //     else return false
-    // }
+    //     else return false 
 
     getSnapshotBeforeUpdate(prevProps, prevState){
         console.log('[Persons.js] getSnaphotBeforeUpdate')
